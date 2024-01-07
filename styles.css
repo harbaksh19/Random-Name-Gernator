@@ -1,0 +1,27 @@
+.details{
+    background-color: cornsilk;
+    margin: 5px;
+    padding: 5px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.styled-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Change button color on hover */
+  .styled-button:hover {
+    background-color: #2980b9;
+  }
+  
